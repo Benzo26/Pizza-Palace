@@ -25,8 +25,8 @@
                     <br>
                     <h3>Size</h3>
                     <select class="form-control size">
-                      <option label="Small Ksh.500" value="500">Small</option>
-                      <option label="Medium Ksh.700" value="700">Medium</option>
+                      <option label="Small Ksh.450" value="450">Small</option>
+                      <option label="Medium Ksh.600" value="600">Medium</option>
                       <option label="Large Ksh.1000" value="1000">Large</option>
                     </select>
                 </div>
@@ -78,19 +78,27 @@
                 </tbody>
             </table>
             <div class="finalorder-buttons mb-5">
-                <div class="final-order">
-                  <button class="btn btn-info add-pizza" type="submit">Add Another</button>
-                  <div class="additional-info">
-                    <h3>Your total is: <span></span></h3>
-                    <h4>Thank you for ordering with Pizza Palace, Your order will be ready in 12 minutes</h4>
+                <div class="text-center">
+                  <button class="btn btn-info add-pizza" type="submit">Add More</button>
+                  <div class="prompt-info">
+                    <h3>Your total price is: <span></span></h3>
+                    <h5>Would you like home delivery for an additional amount of<strong>150</strong>?</h5>
+                    <h4 id="no">Your order will be ready in at most 10 minutes. Kindly wait.</h4>
+                    <h4 id="yes">Your order has been placed and will be delivered to <span></span> in less than 20minutes</h4>
+                    <div class="location text-center">
+                      <input type="text" size="30" placeholder="Enter the delivery address" required/>
+                      <button class="btn btn-info complete" type="submit">Complete</button>
+                    </div>
                   </div>
-            </div>
-            <div class="delivery">
-                <h5>Would you like delivery for an additional <em>Kshs 150/=</em>?</h5>
-            </div>
-            <div class="text-center pt-4">
-                <button class="btn btn-info check-out" type="submit">Checkout</button>
-            </div>
+                  <br>
+                  <button class="btn btn-info yes" type="submit">Yes</button>
+                  <button class="btn btn-info no" type="submit">No</button>
+                </div>
+                <div class="text-center pt-4">
+                  <button class="btn btn-info check-out" type="submit">Checkout</button>
+                </div>
+              </div>
+          </div>
         </div>
 
     </div>
