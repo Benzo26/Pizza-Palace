@@ -1,6 +1,6 @@
 (document).ready(function(){
     $("table").hide();
-    $(".additional-buttons").hide();
+    $(".finalorder-buttons").hide();
     $(".additional-info").hide();
     $(".btn.yes").hide();
     $(".btn.no").hide();

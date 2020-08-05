@@ -1,0 +1,35 @@
+.model{
+    margin-top: 120px;
+    margin-bottom: 120px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 500px;
+    padding-left: 100px;
+}
+
+body{
+    background-image: url(../images/river.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: grey;
+  }
+ .container {
+    margin: 0 auto;
+    width: 880px;
+  }
+  .jumbotron{
+    color: black;
+    background-color: rgb(31, 94, 119);
+  }
+}
+.overlay{
+  background:rgba(255,255,255,0.5);
+}
+.offers img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
